@@ -36,7 +36,8 @@ function displayPics(){
     }
   }
   
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the letiable declaration from `let to `let`.
+  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the letiable declaration from `const to `let`.
+  // because const is a bloked element, he can declare only for the position he takes a place. On other wise, let is used globaly not only for one position 
   // PUT YOUR RESPONSE IN THIS COMMENT
   console.log(viewed);
 
