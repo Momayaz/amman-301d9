@@ -200,7 +200,10 @@ Student.prototype.scopeArrow = () => console.log(this);
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked? the properites at the constructor function above, which came from the object.
 //
-// 2. What is "this" when joe.scopeArrow() is invoked? 
+// 2. What is "this" when joe.scopeArrow() is invoked? it is kindda empty, as there are no parameters over there. 
 //
 // 3. Explain why "this" is different when an arrow function is used.
+// this at scope function is full of information as she brought informations from the constructor function the one who brought
+//information from the object, however in scopeArrow there's no parameters to fill in, and the output will be automatically
+// empty.
 //
